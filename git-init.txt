@@ -1,0 +1,19 @@
+Creating a folder in local, then connecting with remote.
+
+mkdir temp (create folde)
+
+cd temp
+
+git init
+
+touch 1.txt (creating file)
+
+git add 1.txt (adding file)
+
+git commit  -m "1.txt"
+
+git branch -M main
+
+git remote add origin git@github.com:KarthickJoyous/temp-uybgsd.git
+
+git push origin main
