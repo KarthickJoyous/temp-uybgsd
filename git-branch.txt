@@ -26,3 +26,13 @@ git switch -c v2
 7. Rename branch :
 
 git branch -m v1.1
+
+8. Delete branch (local) :
+
+git branch -d v1
+
+9. Delete branch (remote) :
+
+git branch -d v1
+
+git push origin --delete v1
