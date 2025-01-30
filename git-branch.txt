@@ -37,4 +37,6 @@ git branch -d v1
 
 git push origin :v1
 
-10. git branch --merged
+10. Check if a branch is merged, If v1 is not in the list, it is unmerged.
+
+git branch --merged
