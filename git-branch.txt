@@ -1,0 +1,28 @@
+1. Local branch
+
+git branch
+
+2. Remote branch
+
+git branch -r
+
+3. Local + Remote branch
+
+git branch -a
+
+4. Create branch
+
+git branch v1
+
+5. Switch to branch
+
+git checkout v1
+git switch v1
+
+6. Create branch & switch 
+
+git switch -c v2
+
+7. Rename branch :
+
+git branch -m v1.1
